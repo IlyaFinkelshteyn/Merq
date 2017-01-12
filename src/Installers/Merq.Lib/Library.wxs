@@ -56,11 +56,11 @@
 		</Component>
 		<Component Id="Merq12" Directory="MerqVsixInstallDir" Guid="{2E4AB630-84E5-4C66-B935-01641D95D46A}">
 			<Condition>VS2013_ROOT_FOLDER</Condition>
-			<File Id="Merq12.vsix" Source="$(var.Merq.Vsix.TargetDir)Merq.vsix">
+			<!--<File Id="Merq12.vsix" Source="$(var.Merq.Vsix.TargetDir)Merq.vsix">
 				<vs:VsixPackage	PackageId="Merq" VsixInstallerPathProperty="VS2013_VSIX_INSTALLER_PATH" Target="Ultimate" TargetVersion="12.0" Vital="no" Permanent="no" />
 				<vs:VsixPackage	PackageId="Merq" VsixInstallerPathProperty="VS2013_VSIX_INSTALLER_PATH" Target="Premium" TargetVersion="12.0" Vital="no" Permanent="no" />
 				<vs:VsixPackage	PackageId="Merq" VsixInstallerPathProperty="VS2013_VSIX_INSTALLER_PATH" Target="Pro" TargetVersion="12.0" Vital="no" Permanent="no" />
-			</File>
+			</File>-->
 		</Component>
 		<Component Id="Merq14" Directory="MerqVsixInstallDir" Guid="{34F706EE-20E4-4AA3-BF18-7B24AF0B75E2}">
 			<Condition>VS2015_ROOT_FOLDER</Condition>
